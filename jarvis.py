@@ -39,7 +39,6 @@ def takeCommand():
         # r.pause_threshold = 0.5
         # r.energy_threshold = 100
         audio = r.listen(source)
-        # r.non_speaking_duration = 0.1
         
     try:
         print("Recognizing...")
