@@ -31,7 +31,7 @@ def wishMe():
 
 def takeCommand():
     '''
-        This function takes microphone input , recognizes it and return a string
+        This function takes input from the microphone, then recognizes it and returns a string
     '''
     r = sr.Recognizer()
     with sr.Microphone() as source:
